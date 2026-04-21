@@ -12,20 +12,25 @@ To write a Python program that creates a **Student** class with a **default cons
 
 ## 🧾 Program
 ```
-class Student:
-    def _init_(self,a):
-        self.a=a
-    def get(self):
-        self.a=input()
-    def info(self):
-        print("This is non parametrized constructor")
-        print("Hello",self.a)
-obj=Student()
-obj.get()
-obj.info()
-```
-## Output
-<img width="999" height="282" alt="image" src="https://github.com/user-attachments/assets/c8aea481-0c9f-4d61-98d0-bc7bd981a4e1" />
 
+name = input()
+
+
+class Student:
+   
+    def __init__(self):
+        self.a = name  
+    
+  
+    def show(self):
+        print("This is non-parameterized constructor")
+        print("Hello", self.a)
+
+
+s = Student()   
+s.show()
+```       
+## Output
+<img width="1155" height="232" alt="image" src="https://github.com/user-attachments/assets/895dcb92-f9a0-4db7-b248-8d482cfbdb48" />
 ## Result
 Thus the prgram has been successfully executed.
