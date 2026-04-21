@@ -32,5 +32,6 @@ s.show()
 ```       
 ## Output
 <img width="1155" height="232" alt="image" src="https://github.com/user-attachments/assets/895dcb92-f9a0-4db7-b248-8d482cfbdb48" />
+
 ## Result
 Thus the prgram has been successfully executed.
