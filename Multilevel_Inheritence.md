@@ -56,5 +56,6 @@ print(gc.getName(), gc.getAge(), gc.getLocation())
 ## Sample Output
 <img width="656" height="231" alt="image" src="https://github.com/user-attachments/assets/68524711-f5eb-4aaf-931d-71f141ee1a4e" />
 
-## Sample Output
+## Result
+Thus , the program has been executed succesfully.
 
