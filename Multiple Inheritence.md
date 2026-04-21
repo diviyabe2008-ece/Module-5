@@ -50,4 +50,7 @@ print(obj.Division(a, b))
 ```
 ## Output Example
 
-<img width="463" height="229" alt="image" src="https://github.com/user-attachments/assets/17b505c4-0da3-4cc6-8d95-8297e59cd9d7" />
+<img width="384" height="231" alt="image" src="https://github.com/user-attachments/assets/d2600ffe-3161-4729-bedc-2a22b1b6759f" />
+
+## Result
+Thus , the program has been executed succesfully.
