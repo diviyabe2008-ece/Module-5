@@ -22,20 +22,24 @@ The program defines a class `Demo` with:
    - Delete the object using the `del` keyword.
 ## Program
 ```
-class Rectangle:
-    def __init__(self, length, width):
-        self.__length = length  # Private variable
-        self.__width = width    # Private variable
-    
-    def print_values(self):
-        print(self.__length)
-        print(self.__width)
 
-rect = Rectangle(5, 3)
-rect.print_values()
+class Demo:
+   
+    def __init__(self):
+        self.status = "Alive"
+        print(self.status)
+
+
+    def __del__(self):
+        print("The object no longer exists")
+
+
+obj = Demo()  
+del obj        
 ```
 ## 🧪 Output
-<img width="467" height="230" alt="image" src="https://github.com/user-attachments/assets/7b7d9599-2858-405c-b298-bafdca450c04" />
+<img width="717" height="147" alt="image" src="https://github.com/user-attachments/assets/9c626520-2a2e-44d9-955f-d43960c7dd25" />
+
 
 ## Result
 Thus the prgram has been successfully executed.
